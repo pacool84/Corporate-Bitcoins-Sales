@@ -1,0 +1,32 @@
+/* Guide lines 
+1.-Positions (relative, absolute)
+2.- Box Model (margin, padding etc)
+3.- Typography 
+4.- Visualize (border radius, box shadow) 
+5.- Others
+*/
+
+/* Variables */
+:root {
+  /* colors */
+  --bitcoin-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black: #201e1c;
+  --black: #282623;
+  --grey: #bababa;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+}
+
+* {
+  background-origin: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
