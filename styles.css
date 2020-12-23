@@ -233,3 +233,43 @@ main {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.currency-table--date {
+  width: 190px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 8px;
+  background-color: var(--soft-orange);
+  border-radius: 8px;
+}
+.currency-table--date p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: var(--warm-black);
+}
+
+.main-benefits-table {
+  width: 70%;
+  min-width: 235px;
+  max-width: 500px;
+  height: 360px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+.main-benefits-table .benefits-table-title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+  color: var(--secondary-blue);
+}
+
+.benefits-table-container {
+  width: 90%;
+  min-width: 230px;
+  max-width: 300;
+  height: 250px;
+  margin: 0 auto;
+}
