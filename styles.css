@@ -452,10 +452,10 @@ main {
   position: relative; /* This position is used to make part of the effect floating objects */
   scroll-snap-align: center; /* This line also help to give the slider effect */
   width: 70%;
-  min-width: 230px;
+  min-width: 190px;
   max-width: 300px;
   height: 250px;
-  margin: 50px 10px 0;
+  margin: 50px 5px 0;
   padding: 0 15px;
   background-color: var(--just-white);
   border-radius: 15px;
