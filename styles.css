@@ -439,13 +439,23 @@ main {
   color: #757575;
 }
 
+.plans-container--slider {
+  display: flex;
+  height: 316px;
+  /* gap: 20px; This is still on beta, not all the browser support this yet*/
+  overflow-x: scroll; /* The foloowing 3 lines are to recreate the slider effect */
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
 .plans-container--card {
   position: relative; /* This position is used to make part of the effect floating objects */
+  scroll-snap-align: center; /* This line also help to give the slider effect */
   width: 70%;
   min-width: 230px;
   max-width: 300px;
   height: 250px;
-  margin: 50px auto 0;
+  margin: 50px 10px 0;
   padding: 0 15px;
   background-color: var(--just-white);
   border-radius: 15px;
